@@ -1,0 +1,28 @@
+
+.headerSec{
+    background-image: url(../images/background.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* max-width: 100%;
+    height: auto; */
+}
+.redBack{
+    background-color: rgb(248, 86, 89);
+}
+.outterRadius{
+    border-radius: 30px; 
+}
+.srchBox{
+    margin-left: -35px;
+    /* position: absolute;
+    left: 150px; */
+}
+.basePos{
+    position: relative;
+}
+.badgePos{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
