@@ -1,20 +1,81 @@
 
+.body{
+    font-family: 'Montserrat';
+}
+.marginZero p{
+    margin: 0;
+}
+.paddingZero div{
+    padding: 0;
+}
+
+/* -----Common Classes----- */
+.fontSize11{
+    font-size: 0.69rem;
+}
+.fontSize13{
+    font-size: 0.81rem;
+}
+.fontSize15{
+    font-size: 0.94rem;
+}
+.fontSize16{
+    font-size: 1rem;
+}
+.fontSize18{
+    font-size: 1.13rem;
+}
+.fontSize20{
+    font-size: 1.25rem;
+}
+.fontSize28{
+    font-size: 1.75rem;
+}
+.fontSize30{
+    font-size: 1.88rem;
+}
+.fontSize38{
+    font-size: 2.38rem;
+}
+.fontSize60{
+    font-size: 3.75rem;
+}
+.fontWeightBold{
+    font-weight: bold;
+}
+.fontWeightSemibold{
+    font-weight: 600;
+}
+.fontGray{
+    color: rgb(149, 149, 149)
+}
+.backRed{
+    background-color: rgb(248, 86, 89);
+}
+.colorRed{
+    color: rgb(248, 86, 89);
+}
+.commonBackProp{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.itemPosBtm{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+}
+
+/* -----header----- */
 .headerSec{
     background-image: url(../images/background.jpg);
     background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* max-width: 100%;
-    height: auto; */
-}
-.redBack{
-    background-color: rgb(248, 86, 89);
 }
 .outterRadius{
     border-radius: 30px; 
 }
 .srchBox{
-    margin-left: -35px;
+    margin-left: -42px;
     /* position: absolute;
     left: 150px; */
 }
@@ -26,3 +87,102 @@
     bottom: 15px;
     left: 15px;
 }
+
+/* -----Street Collection----- */
+.strCol1txt{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+}
+.overlayStr1:before{
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(95,158,202,0.5);
+    z-index: 1;
+}
+.strCol2txt{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+.strCol3txt{
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+}
+.strCol4txt{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 1;
+}
+.overlayStr4:before{
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(48,48,48,0.5);
+    z-index: 1;
+}
+
+/* -----Popular Products----- */
+.badgeNewPos{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    height: 10%;
+}
+
+/* -----Canvas----- */
+.canvasBP{
+    background-image: url(../images/canvasbp.jpg);
+    background-position: center;
+}
+.basePosOverlay{
+    position: relative;
+}
+.basePosOverlay *{
+    position: relative;
+}
+.overlayCanvas:before{
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(247, 207, 163, 0.5);
+}
+
+/* -----Onsale Products----- */
+.onsale1{
+    background-image: url(../images/onsalebanner1.jpg);
+    background-position: center;
+    /* min-height: 100%; */
+}
+.onsale2{
+    background-image: url(../images/onsalebanner2.jpg);
+    background-position: center;
+}
+.overlayOnsale:before{
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(167, 213, 241, 0.5);
+}
+
+/* -----Footer----- */
+.backBlue{
+    background-color: rgb(217,217,217);
+}
+
