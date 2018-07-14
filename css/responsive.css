@@ -1,0 +1,17 @@
+
+/* Small Screens */
+@media all and (max-width: 680px){
+    .downsizeText {
+        font-size: 70px;
+    }
+}
+
+/* Medium Screens */
+/* @media all and (max-width: 768px){
+
+} */
+
+/* Large Screens */
+/* @media all and (max-width: 1500px){
+
+} */
