@@ -1,6 +1,6 @@
 
 .body{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 .marginZero p{
     margin: 0;
@@ -40,14 +40,20 @@
 .fontSize60{
     font-size: 3.75rem;
 }
-.fontWeightBold{
-    font-weight: bold;
-}
 .fontWeightSemibold{
     font-weight: 600;
 }
-.fontGray{
-    color: rgb(149, 149, 149)
+.fontDarkGray *{
+    color: rgb(64, 64, 64);
+}
+.fontGray *{
+    color: rgb(120, 120, 120);
+}
+.fontLightGray{
+    color: rgb(179, 179, 179);
+}
+.fillBackBlue{
+    background-color: rgb(237, 237, 237);
 }
 .backRed{
     background-color: rgb(248, 86, 89);
@@ -55,6 +61,39 @@
 .colorRed{
     color: rgb(248, 86, 89);
 }
+.colorSample1{
+    background-color: rgb(120, 80, 80);
+}
+.colorSample2{
+    background-color: rgb(142, 152, 174);
+}
+.colorSample3{
+    background-color: rgb(102, 113, 134);
+}
+
+
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #F44336;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #F44336;
+    content: ">";
+}
+
+.page-item.disabled .page-link {
+    z-index: 1;
+    background-color: rgb(237, 237, 237);;
+    border-color: rgb(237, 237, 237);;
+}
+.btn:not(:disabled):not(.disabled).active, .btn:active {
+    background-color: rgb(248, 86, 89);
+    color: white;
+}
+
 .commonBackProp{
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,7 +126,11 @@
     bottom: 15px;
     left: 15px;
 }
-
+.badgePosDown{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
 /* -----Street Collection----- */
 .strCol1txt{
     position: absolute;
@@ -186,3 +229,7 @@
     background-color: rgb(217,217,217);
 }
 
+.pagination>li>a, .pagination>li>span {
+     border-radius: 50% !important;
+     margin: 0 5px;
+}
