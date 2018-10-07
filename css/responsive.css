@@ -4,12 +4,17 @@
     .downsizeText {
         font-size: 70px;
     }
+    /* .selectCateg{
+        display: block;
+    } */
 }
 
 /* Medium Screens */
-/* @media all and (max-width: 768px){
-
-} */
+@media all and (max-width: 768px){
+    /* .selectCateg{
+        display: none;
+    } */
+}
 
 /* Large Screens */
 /* @media all and (max-width: 1500px){

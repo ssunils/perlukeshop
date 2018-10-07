@@ -100,7 +100,7 @@
 }
 .itemPosBtm{
     position: absolute;
-    bottom: 10%;
+    bottom: 22%;
     right: 0;
     left: 0;
 }
@@ -180,7 +180,7 @@
     position: absolute;
     top: 5%;
     right: 15%;
-    height: 10%;
+    height: 8%;
 }
 
 /* -----Canvas----- */
@@ -232,4 +232,10 @@
 .pagination>li>a, .pagination>li>span {
      border-radius: 50% !important;
      margin: 0 5px;
+}
+
+.pdtImage{
+    max-width: 100%;
+    height: 69%;
+    padding: 3%;
 }
